@@ -1,0 +1,9 @@
+---
+- name: Configurar servidores
+  hosts: servers
+  become: true
+  tasks:
+    - name: Instalar pacote nginx
+      apt:
+        name: nginx
+        state: present

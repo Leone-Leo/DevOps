@@ -9,3 +9,4 @@
  Os arquivos docker-compose.yml, kubernetes-deployment.yaml, ansible-playbook.yml e jenkinsfile são arquivos de configuração para as ferramentas Docker, Kubernetes, Ansible e Jenkins.
  Os arquivos jenkins-pipeline.groovy e gitlab-ci.yml são exemplos de pipelines CI/CD usando o Jenkins e o GitLab.
  O arquivo aws-infra-template.yml é um modelo de infraestrutura básica na AWS usando o AWS CloudFormation.
+ O arquivo deployment.py é um script Python para automatizar o processo de implantação de um aplicativo.

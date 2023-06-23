@@ -1,0 +1,19 @@
+stages:
+  - build
+  - test
+  - deploy
+
+build_job:
+  stage: build
+  script:
+    - mvn clean package
+
+test_job:
+  stage: test
+  script:
+    - mvn test
+
+deploy_job:
+  stage: deploy
+  script:
+    - mvn deploy
